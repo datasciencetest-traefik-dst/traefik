@@ -5,7 +5,7 @@
 Build the images and spin up the containers:
 
 ```sh
-$ docker-compose up -d --build
+$ docker-compose -f docker-compose.yml up -d --build
 ```
 
 Test it out:
