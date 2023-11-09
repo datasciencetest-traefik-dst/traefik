@@ -26,7 +26,7 @@ services:
       - POSTGRES_PASSWORD=fastapi_traefik
       - POSTGRES_DB=fastapi_traefik
   traefik:
-    image: traefik:v2.9.6
+    image: traefik:v3.0
     ports:
       - 8008:80
       - 8081:8080
